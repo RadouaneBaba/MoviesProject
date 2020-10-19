@@ -7,7 +7,7 @@ const ImageModal=({item, modalHidden, setmodal})=>{
             <div className="bg-gray-300 m-32 p-12">
                 <h1 className="font-bold text-3xl">{item.title}</h1>
                 <p className="text-xl py-6">{item.description}</p>
-                <div className="flex justify-end font-semibold pt-12 text-xl"><div className="px-4 py-2 bg-gray-900 text-gray-300 rounded-full cursor-pointer">Watch Now</div> <div className=" px-4 py-2 border border-solid border-gray-900 rounded-full mx-4 cursor-pointer" onClick={() => setModal(!modal)}>Exit</div></div>
+                <div className="flex justify-end font-semibold pt-12 text-xl"><div className="px-4 py-2 bg-gray-900 text-gray-300 rounded-full cursor-pointer">Watch Now</div> <div className=" px-4 py-2 border border-solid border-gray-900 rounded-full mx-4 cursor-pointer" onClick={() => setmodal(!modalHidden)}>Exit</div></div>
             </div>
         </div>
     )
