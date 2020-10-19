@@ -1,7 +1,7 @@
 import React,{useState}  from 'react'
 import ImageModal from './ImageModal'
 const GridItem=({item , index})=>{
-    const [modalHidden, setmodal] = useState(true)/*the state Responsible of modal*/
+    const [modalHidden, setmodal] = useState(true)
     
     return(
         <div key={index} className="w-4/12">
